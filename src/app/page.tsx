@@ -38,7 +38,7 @@ const formatPhoneNumber = (phoneNumberString: string): string | null => {
   return null;
 };
 
-export function SearchWithClear({
+function SearchWithClear({
   onSearch,
   onClear,
   searchTerm,
