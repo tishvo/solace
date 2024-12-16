@@ -31,8 +31,8 @@ const specialties = [
 ];
 
 const randomSpecialty = () => {
-  const random1 = Math.floor(Math.random() * 24);
-  const random2 = Math.floor(Math.random() * (24 - random1)) + random1 + 1;
+  const random1 = Math.floor(Math.random() * specialties.length);
+  const random2 = Math.floor(Math.random() * (specialties.length - random1)) + random1 + 1;
 
   return [random1, random2];
 };
